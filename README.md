@@ -1,8 +1,4 @@
----
-tags: sinatra, todo, twitter api, tutorial
-languages: ruby
-resources: 4
----
+
 
 # Sinatra Twitter Todo
 
