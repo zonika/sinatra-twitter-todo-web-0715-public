@@ -42,11 +42,11 @@ Run `bundle` and then `rackup`. Then go to `http://localhost:9292` to see the tw
 There's one test, which should already be passing. Let's take a look at it:
 
 ```ruby
-it "handles GET to '/'" do 
+it "handles GET to '/'" do
   get '/'
   expect(last_response).to be_ok
   expect(last_response.status).to eq(200)
-end
+end   
 ```
 
 We're using the Rack::Test module in our specs to make a get request to '/'. The tests expects the status response to be ok (aka, 200). Refer back to the [Status Codes](http://learn.flatironschool.com/admin/lessons/122) lesson.
